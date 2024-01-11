@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+.App-body{
+  background-color: #ccc;; 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -22,6 +25,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.btn-margin {
+  margin-right: 20px;
+}
+
+.imgperro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+
 }
 
 .App-link {
