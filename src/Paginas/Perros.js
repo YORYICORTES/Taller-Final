@@ -6,6 +6,12 @@ import axios from "axios";
 
 import perr from '../assets/img/perr.png';
 import perr2 from '../assets/img/perr2.jpg';
+import perr3 from '../assets/img/perr3.png';
+import perr4 from '../assets/img/perr4.png';
+import perr5 from '../assets/img/perr5.png';
+import perr6 from '../assets/img/perr6.png';
+import perr7 from '../assets/img/perr7.png';
+import perr8 from '../assets/img/perr8.png';
 import { Link } from 'react-router-dom';
 import { mostrarAlerta } from "../functions.js";
 import Swal from 'sweetalert2';
@@ -141,7 +147,7 @@ const Perros = () => {
           <div className="row align-items-end">
             <div className="col">
               <div className="card" style={{ width: '18rem ' }}>
-                <img src={perr2} id="img2" className="imgperro mx-auto d-block" />
+                <img src={perr} id="img2" className="imgperro mx-auto d-block" />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -168,7 +174,7 @@ const Perros = () => {
             </div>
             <div className="col">
               <div className="card" style={{ width: '18rem ' }}>
-                <img src={perr} className="imgperro mx-auto d-block" />
+                <img src={perr2} className="imgperro mx-auto d-block" />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -195,7 +201,7 @@ const Perros = () => {
             </div>
             <div className="col">
               <div className="card" style={{ width: '18rem ' }}>
-                <img src={perr} className="imgperro mx-auto d-block" />
+                <img src={perr3} className="imgperro mx-auto d-block" />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -222,7 +228,115 @@ const Perros = () => {
             </div>
             <div className="col">
               <div className="card" style={{ width: '18rem ' }}>
-                <img src={perr} className="imgperro mx-auto d-block" />
+                <img src={perr4} className="imgperro mx-auto d-block" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div classNameName="btn-group">
+                  <button
+                      onClick={() => openModal(2)}
+                      className="btn btn-dark btn-margin"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalDetalle"
+                    >
+                      <i className="fa-solid fa-circle-plus"></i>Detalles
+                    </button>
+                    <button
+                      onClick={() => openModal(1)}
+                      className="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalMascotas"
+                    >
+                      <i className="fa-solid fa-circle-plus"></i>Adoptar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card" style={{ width: '18rem ' }}>
+                <img src={perr5} className="imgperro mx-auto d-block" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div className="btn-group">
+                  <button
+                      onClick={() => openModal(2)}
+                      className="btn btn-dark btn-margin"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalDetalle"
+                    >
+                      <i className="fa-solid fa-circle-plus"></i>Detalles
+                    </button>
+                    <button
+                      onClick={() => openModal(1)}
+                      className="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalMascotas"
+                    >
+                      <i className="fa-solid fa-circle-plus"></i>Adoptar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card" style={{ width: '18rem ' }}>
+                <img src={perr6} className="imgperro mx-auto d-block" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div className="btn-group">
+                  <button
+                      onClick={() => openModal(2)}
+                      className="btn btn-dark btn-margin"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalDetalle"
+                    >
+                      <i className="fa-solid fa-circle-plus"></i>Detalles
+                    </button>
+                    <button
+                      onClick={() => openModal(1)}
+                      className="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalMascotas"
+                    >
+                      <i className="fa-solid fa-circle-plus"></i>Adoptar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card" style={{ width: '18rem ' }}>
+                <img src={perr7} className="imgperro mx-auto d-block" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div className="btn-group">
+                  <button
+                      onClick={() => openModal(2)}
+                      className="btn btn-dark btn-margin"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalDetalle"
+                    >
+                      <i className="fa-solid fa-circle-plus"></i>Detalles
+                    </button>
+                    <button
+                      onClick={() => openModal(1)}
+                      className="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalMascotas"
+                    >
+                      <i className="fa-solid fa-circle-plus"></i>Adoptar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card" style={{ width: '18rem ' }}>
+                <img src={perr8} className="imgperro mx-auto d-block" />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -249,12 +363,12 @@ const Perros = () => {
             </div>
           </div>
   
-          <div className="btn-group btn-group-sm" role="group" aria-label="Small button group">
+          <div className="btn-group btn-group-sm " role="group" aria-label="Small button group">
           <button type="button" className="btn btn-outline-primary" onClick={() => changeImage('img1')}>Anterior</button>
-  <button type="button" className="btn btn-outline-primary" onClick={() => changeImage('img2')}>1</button>
-  <button type="button" className="btn btn-outline-primary" onClick={() => changeImage('img3')}>2</button>
-  <button type="button" className="btn btn-outline-primary" onClick={() => changeImage('img4')}>3</button>
-  <button type="button" className="btn btn-outline-primary">Siguiente</button>
+          <button type="button" className="btn btn-outline-primary" onClick={() => changeImage('img2')}>1</button>
+          <button type="button" className="btn btn-outline-primary" onClick={() => changeImage('img3')}>2</button>
+          <button type="button" className="btn btn-outline-primary" onClick={() => changeImage('img4')}>3</button>
+          <button type="button" className="btn btn-outline-primary">Siguiente</button>
           </div>
         </div>
         <div id="modalMascotas" className="modal fade" aria-hidden="true">

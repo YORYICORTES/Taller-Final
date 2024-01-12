@@ -30,7 +30,11 @@
 .btn-margin {
   margin-right: 20px;
 }
-
+.applogo{
+  display: flex;
+  width: 150px;
+  height: 100px;
+}
 .imgperro{
   display: flex;
   justify-content: center;
@@ -50,4 +54,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar-custom {
+  background-color: #3da5e0; /* Reemplaza con el color de fondo deseado */
+}
+.container {
+  /*margin-top: 50px;*/
+  background-image: url(../src/assets/img/fondo.jpg);
+  background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+}
+.home {
+  background-image: url('../src/assets/img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
