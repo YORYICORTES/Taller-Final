@@ -7,7 +7,7 @@ const MascotasgpComponent = () => {
   return (
     <>
       
-        <div className="container">
+        <div className="containerr">
           <nav className="navbar navbar-expand-lg navbar-custom">
             <div className="container-fluid">
               <a className="navbar-brand" href="#">
@@ -38,13 +38,10 @@ const MascotasgpComponent = () => {
 
                   </ul>
                 </form>
-
               </div>
             </div>
           </nav>
-          
         </div>
-
     </>
   );
 };

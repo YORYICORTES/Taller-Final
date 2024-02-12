@@ -58,7 +58,7 @@
 .navbar-custom {
   background-color: #3da5e0; /* Reemplaza con el color de fondo deseado */
 }
-.container {
+.containerr {
   /*margin-top: 50px;*/
   background-image: url(../src/assets/img/fondo.jpg);
   background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
@@ -68,4 +68,10 @@
   background-image: url('../src/assets/img/fondo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card-body-targe {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
